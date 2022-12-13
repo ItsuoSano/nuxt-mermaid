@@ -1,0 +1,21 @@
+{
+  "name": "nuxt_mermaid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run dev"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "private",
+  "workspaces": [
+    "nuxt-mermaid-module",
+    "remark-mermaid-plugin"
+  ],
+  "dependencies": {
+    "nuxt": "^3.0.0"
+  }
+}

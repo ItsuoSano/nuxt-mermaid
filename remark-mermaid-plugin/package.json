@@ -1,0 +1,22 @@
+{
+  "name": "@nuxt-mermaid/remark-mermaid-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build src/index.ts -o dist",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/ncc": "^0.36.0"
+  },
+  "dependencies": {
+    "mermaid": "^9.2.2",
+    "puppeteer": "^19.4.0",
+    "unist-util-visit": "^4.1.1"
+  }
+}
