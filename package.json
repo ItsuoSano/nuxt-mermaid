@@ -17,5 +17,9 @@
   ],
   "dependencies": {
     "nuxt": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.8.1"
   }
 }
